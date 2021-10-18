@@ -4,11 +4,11 @@ import Navbar from "./Component/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Component/Home/Home";
 import About from "./Component/About/About";
-import Services from "./Component/Services/Services";
 import Footer from "./Component/Footer/Footer";
 import Doctors from "./Component/Doctors/Doctors";
 import Contact from "./Component/Contact/Contact";
 import Signin from "./Component/Signin/Signin";
+import Service from "./Component/Service/Service";
 
 function App() {
   return (
@@ -28,8 +28,8 @@ function App() {
             <About></About>
           </Route>
 
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/service">
+            <Service></Service>
           </Route>
 
           <Route path="/doctors">

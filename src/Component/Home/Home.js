@@ -1,6 +1,7 @@
 import React from "react";
 import HomeDoctorsList from "../HomeDoctorsList/HomeDoctorsList";
 import HomeService from "../HomeService/HomeService";
+import PatientSay from "../PatientSay/PatientSay";
 import HeaderSlider from "./HeaderSlider";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <HeaderSlider></HeaderSlider>
       <HomeDoctorsList></HomeDoctorsList>
       <HomeService></HomeService>
+      {/* <PatientSay></PatientSay> */}
     </div>
   );
 };

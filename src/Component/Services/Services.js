@@ -1,6 +1,6 @@
 import React from 'react';
+import AllServices from '../AllServices/AllServices';
 import useServices from '../Hooks/useServices';
-import Service from '../Service/Service';
 
 const Services = () => {
     const [ services ] = useServices();
@@ -8,7 +8,7 @@ const Services = () => {
         <div className="container">
         <div className="row mt-3 mb-3">
           {services.map((service) => (
-            <Service key={service.id} service={service}></Service>
+            <AllServices key={service.id} service={service}></AllServices>
           ))}
         </div>
       </div>

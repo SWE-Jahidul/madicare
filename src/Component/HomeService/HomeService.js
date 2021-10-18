@@ -1,6 +1,6 @@
 import React from "react";
+import AllServices from "../AllServices/AllServices";
 import useServices from "../Hooks/useServices";
-import Service from "../Service/Service";
 
 const HomeService = () => {
   const [services] = useServices();
@@ -14,7 +14,7 @@ const HomeService = () => {
 
       <div className="row mt-3 mb-3">
         {services.slice(0, 4).map((service) => (
-          <Service key={service.id} service={service}></Service>
+          <AllServices key={service.id} service={service}></AllServices>
         ))}
       </div>
     </div>
