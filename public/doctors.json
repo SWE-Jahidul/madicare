@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
+    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
+    "price":"$20",
+    "offer-Price" : "$15",
+    "totalstudent":"145"  
+  },
+  {
+    "id": 2,
+    "image": "https://thumbs.dreamstime.com/b/doctor-holding-digital-tablet-meeting-room-portrait-beautiful-mature-woman-looking-camera-confident-female-using-164999229.jpg",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
+    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
+    "price":"$20",
+    "offer-Price" : "$15",
+    "totalstudent":"145"
+
+  },
+  {
+    "id": 3,
+    "image": "https://image.shutterstock.com/image-photo/covid19-coronavirus-healthcare-doctors-concept-260nw-1687768795.jpg",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Traditional business plan format · Executive summary · Company description · Market analysis · Organization and management · Service or product line ",
+    "price":"$20",
+    "totalstudent":"145"  
+
+  },
+  {
+    "id": 4,
+    "image": "https://health.gov/sites/default/files/styles/topic_card_image/public/2020-01/regular-checkups_banner.jpg?itok=2HIjcA3h",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Impressionism is a 19th-century art movement thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its",
+    "price":"$20",
+    "totalstudent":"145"
+
+  },
+  {
+    "id": 5,
+    "image": "https://media.istockphoto.com/photos/we-offer-our-patients-premium-healthcare-here-picture-id638647058?k=20&m=638647058&s=612x612&w=0&h=aRF56ZIBXBL1wN45ZRaHkhmjJjIahkmXTYki7wQteJQ=",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
+    "price":"$20",
+    "totalstudent":"145"
+
+  },
+  {
+    "id": 6,
+    "image": "https://nationaltoday.com/wp-content/uploads/2020/03/Doctors-1.jpg",
+    "name": "Dr Atikur Rahman",
+    "PrimaryCembar": "Bangladesh Hospital",
+    "personalCembar" : "City Hospital",
+    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
+    "price":"$20",
+    "totalstudent":"145"    
+
+  }
+]

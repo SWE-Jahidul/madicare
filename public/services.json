@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "images": "fas fa-location-arrow fa-2x",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "id": 2,
+    "images": "fas fa-phone-alt fa-2x",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "id": 3,
+    "images": "fas fa-envelope fa-2x",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "id": 3,
+    "images": "fas fa-envelope fa-2x",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  },
+  {
+    "id": 3,
+    "images": "fas fa-envelope fa-2x",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+  }
+]
