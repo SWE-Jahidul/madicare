@@ -5,11 +5,10 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "price":"$20",
-    "offer-Price" : "$15",
-    "totalstudent":"145"  
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
+
   },
   {
     "id": 2,
@@ -17,11 +16,10 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
-    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "price":"$20",
-    "offer-Price" : "$15",
-    "totalstudent":"145"
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
+    
 
   },
   {
@@ -30,10 +28,9 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Traditional business plan format · Executive summary · Company description · Market analysis · Organization and management · Service or product line ",
-    "price":"$20",
-    "totalstudent":"145"  
-
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
   },
   {
     "id": 4,
@@ -41,10 +38,9 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Impressionism is a 19th-century art movement thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its",
-    "price":"$20",
-    "totalstudent":"145"
-
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
   },
   {
     "id": 5,
@@ -52,10 +48,9 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
-    "price":"$20",
-    "totalstudent":"145"
-
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
   },
   {
     "id": 6,
@@ -63,9 +58,8 @@
     "name": "Dr Atikur Rahman",
     "PrimaryCembar": "Bangladesh Hospital",
     "personalCembar" : "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
-    "price":"$20",
-    "totalstudent":"145"    
-
+    "experiencetile": "Royal Prince Alfred Hospital – Sydney",
+    "experiencetiledetails": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco quat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "date":"June 2009 to July 2010    "
   }
 ]

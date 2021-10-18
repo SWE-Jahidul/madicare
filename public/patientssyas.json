@@ -1,26 +1,15 @@
 [
   {
     "id": 1,
-    "image": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
-    "name": "Dr Atikur Rahman",
-    "PrimaryCembar": "Bangladesh Hospital",
-    "personalCembar": "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "price": "$20",
-    "offer-Price": "$15",
-    "totalstudent": "145"
+    "images": "fas fa-tooth fa-3x",
+    "Title": "Dental Implements",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   },
   {
     "id": 2,
-    "image": "https://thumbs.dreamstime.com/b/doctor-holding-digital-tablet-meeting-room-portrait-beautiful-mature-woman-looking-camera-confident-female-using-164999229.jpg",
-    "name": "Dr Atikur Rahman",
-    "PrimaryCembar": "Bangladesh Hospital",
-    "personalCembar": "City Hospital",
-    "details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae e",
-    "all-details": "Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei.",
-    "price": "$20",
-    "offer-Price": "$15",
-    "totalstudent": "145"
+    "images": "fas fa-university fa-3x",
+    "Title": "Blood Bank",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   }
+ 
 ]
