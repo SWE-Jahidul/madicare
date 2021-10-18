@@ -1,7 +1,7 @@
 import React from "react";
 
 const PatientSay = (props) => {
-  const { details } = props.patient;
+  const { name } = props.patient;
   return (
     <div className="container">
       {/* <div className="col-md-6">
@@ -16,7 +16,7 @@ const PatientSay = (props) => {
           <p>{details}</p>
         </div>
       </div> */}
-{details}
+{name}
       <div className="col-md-6"></div>
     </div>
   );

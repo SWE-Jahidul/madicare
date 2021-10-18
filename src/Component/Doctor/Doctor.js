@@ -29,7 +29,7 @@ const Doctor = (props) => {
         style={{
             textAlign: 'left'
         }}>
-          <h5>{name} </h5>
+          <h5 className="text-dark">{name} </h5>
           <div>
             <p>{PrimaryCembar} </p>
             <p>{personalCembar} </p>

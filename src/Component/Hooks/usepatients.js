@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 
-const usepatients = () => {
-  const [patients, setPatients] = useState([]);
+const usePatients = () => {
+  const [patients, setPatients] = useState([])
   useEffect(() => {
-    fetch("./patientnsay.json")
-      .then((res) => res.json())
-      .then((data) => {
+    fetch("./services.json")
+      .then(res => res.json())
+      .then(data => {
         setPatients(data);
         console.log(data);
       }, []);
   })
-  return [patients];
+  return (
+    [patients]
+    );
 };
 
-export default usepatients;
+export default usePatients;

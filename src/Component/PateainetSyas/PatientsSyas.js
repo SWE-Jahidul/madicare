@@ -1,9 +1,9 @@
 import React from 'react';
-import usepatients from '../Hooks/usepatients';
+import usePatients from '../Hooks/usepatients';
 import PatientSay from '../PatientSay/PatientSay';
 
 const PatientsSyas = () => {
-    const [patients] = usepatients();
+    const [patients] = usePatients();
 
     return (
         <div className="container">
