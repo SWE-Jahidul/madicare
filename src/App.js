@@ -10,6 +10,7 @@ import Contact from "./Component/Contact/Contact";
 import Signin from "./Component/Signin/Signin";
 import Service from "./Component/Service/Service";
 import SingUp from "./Component/SingUp/SingUp";
+import DoctorDetails from "./Component/DoctorDetails/DoctorDetails";
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
             <Doctors></Doctors>
           </Route>
 
+          <Route path="/doctordetails/:doctorsId">
+            <DoctorDetails></DoctorDetails>
+          </Route>
+
           <Route path="/contact">
             <Contact></Contact>
           </Route>
@@ -46,8 +51,8 @@ function App() {
           </Route>
 
           <Route path="/signup">
-              <SingUp></SingUp>
-            </Route>
+            <SingUp></SingUp>
+          </Route>
         </Switch>
 
         <Footer></Footer>

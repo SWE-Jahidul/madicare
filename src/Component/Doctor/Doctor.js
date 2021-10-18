@@ -25,11 +25,15 @@ const Doctor = (props) => {
           }}
           alt="Card image cap"
         />
-        <div className="card-body text-left"
-        style={{
-            textAlign: 'left'
-        }}>
-          <h5 className="text-dark">{name} </h5>
+        <div
+          className="card-body text-left"
+          style={{
+            textAlign: "left",
+          }}
+        >
+          <Link className="text-decoration-none" to={`/doctordetails/${id}`}>
+            <h5 className="text-dark ">{name} </h5>
+          </Link>
           <div>
             <p>{PrimaryCembar} </p>
             <p>{personalCembar} </p>
