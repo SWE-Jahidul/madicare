@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "images": "fas fa-location-arrow fa-2x",
+    "images": "fas fa-tooth fa-3x",
     "Title": "Dental Implements",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   },
   {
     "id": 2,
-    "images": "fas fa-phone-alt fa-2x",
-    "Title": "Dental Implements",
+    "images": "fas fa-university fa-3x",
+    "Title": "Blood Bank",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   },
   {
     "id": 3,
-    "images": "fas fa-envelope fa-2x",
-    "Title": "Dental Implements",
+    "images": "fas fa-pills fa-3x",
+    "Title": "Medicine Research",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   },
   {
-    "id": 3,
-    "images": "fas fa-envelope fa-2x",   
-     "Title": "Dental Implements",
+    "id": 4,
+    "images": "fas fa-prescription-bottle-alt fa-3x",   
+     "Title": "Pharmaceutical Advice",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   },
   {
-    "id": 3,
-    "images": "fas fa-envelope fa-2x",
-    "Title": "Dental Implements",
+    "id": 5,
+    "images": "fas fa-laptop-medical fa-3x",
+    "Title": "Medical Counseling",
     "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
   }
 ]
