@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="container">
@@ -9,9 +10,10 @@ const Navbar = () => {
           className="col-md-6 fw-bold "
           style={{
             fontSize: 25,
+            color: "#007D9E"
           }}
         >
-          MEDICARE
+          LIFECARE
         </div>
         <div className="col-md-6">
           <span>Location : Bhandaria, Pirojpur </span>
@@ -19,7 +21,7 @@ const Navbar = () => {
           <span
             className="ms-2"
             style={{
-              color: "#84D6FF",
+              color: "#007D9E",
             }}
           >
             Contact :017123456789
@@ -47,7 +49,11 @@ const Navbar = () => {
             className="collapse navbar-collapse fw-bold"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 "
+          style={{
+            color: "#007D9",
+          }}
+            >
               <li className="nav-item">
                 <Link to="/" className="nav-link menu-link">
                   Home
@@ -80,10 +86,10 @@ const Navbar = () => {
         </div>
 
         <div className="d-flex flex-row-reverse ">
-          <Link to="/singin" className="signin " >
+          <Link to="/singin" className="signin menu-link" >
             Sign In
           </Link>
-          <Link to="/singout" className="Singout me-3">
+          <Link to="/singout" className="Singout me-3 menu-link">
             Sign Out
           </Link>
         </div>
