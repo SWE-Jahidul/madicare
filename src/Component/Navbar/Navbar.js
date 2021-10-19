@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../Hooks/useAuth";
+import img from "../images/basic-rgb-149487945-removebg-preview.png";
 
 import "./Navbar.css";
 const Navbar = () => {
@@ -13,12 +14,29 @@ const Navbar = () => {
           style={{
             fontSize: 25,
             color: "#007D9E",
+            textAlign: "left",
           }}
         >
+          <img
+            className=""
+            src={img}
+            style={{
+              height: 50,
+              width: 50,
+              borderRadius: "50px",
+            }}
+            alt="Card image cap"
+          />
           LIFECARE
         </div>
         <div className="col-md-6">
-          <span>Location : Bhandaria, Pirojpur </span>
+          <span
+            style={{
+              color: "#007D9E",
+            }}
+          >
+            Location : Ontario, Canada{" "}
+          </span>
 
           <span
             className="ms-2"
@@ -26,7 +44,7 @@ const Navbar = () => {
               color: "#007D9E",
             }}
           >
-            Contact :017123456789
+            Contact : ++017123456789
           </span>
         </div>
       </div>
@@ -84,36 +102,34 @@ const Navbar = () => {
               </Link>
             </li>
             <div className="d-flex flex-row-reverse align-items-center">
-          <div className="ms-3">
-            {users.email || users.uid ? (
-              <img
-                src={users?.photoURL}
-                alt={users.name}
-                width="35"
-                height="35"
-                style ={{
-                  borderRadius: '50px',
+              <div className="ms-3">
+                {users.email || users.uid ? (
+                  <img
+                    src={users?.photoURL}
+                    alt={users.name}
+                    width="35"
+                    height="35"
+                    style={{
+                      borderRadius: "50px",
+                    }}
+                  />
+                ) : (
+                  <div></div>
+                )}
+              </div>
 
-                }}
-              />
-            ) : (
-              <div></div>    
-            )}
-
-          </div>
-
-          <div>
-            {users.uid || users.email ? (
-              <Link to="" className="signin" onClick={logOut}>
-                Log Out
-              </Link>
-            ) : (
-              <Link to="/singin" className=" signin ">
-                Sign In
-              </Link>
-            )}
-          </div>
-        </div>
+              <div>
+                {users.uid || users.email ? (
+                  <Link to="" className="signin" onClick={logOut}>
+                    Log Out
+                  </Link>
+                ) : (
+                  <Link to="/singin" className=" signin ">
+                    Sign In
+                  </Link>
+                )}
+              </div>
+            </div>
           </ul>
         </div>
       </nav>

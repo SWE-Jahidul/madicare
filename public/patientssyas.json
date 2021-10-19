@@ -1,15 +1,17 @@
 [
   {
     "id": 1,
-    "images": "fas fa-tooth fa-3x",
-    "Title": "Dental Implements",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+    "images": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBob3RvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    "name": "Marina Forrest",
+    "title": " Anatomy ",
+
+    "details": "Amazing design and the best of all. Honestly, these are the two main reasons I bought this theme. Great clean design and no page builders whatsoever. Thank you for making a non-page builder theme. Really appriciate it."
   },
   {
     "id": 2,
-    "images": "fas fa-university fa-3x",
-    "Title": "Blood Bank",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+    "images": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Jeffrey Wayne",
+    "title": " Autometic",
+    "details": "Great support. The support guys helped me on each and every step. I liked their support team and I highly recommend this theme. The theme is very easy to set up, functional and easy to customize. Really Great job they are doing . "
   }
- 
 ]
