@@ -2,7 +2,6 @@ import React from "react";
 
 import img2 from "../images/istockphoto-1000854096-612x612.jpg";
 
-
 const Contact = () => {
   return (
     <div className="container">
@@ -13,18 +12,28 @@ const Contact = () => {
             textAlign: "left",
           }}
         >
-          <h5 className="text-dark">Get in Touch</h5>
-          <p>magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
-
+          <h5
+            className=""
+            style={{
+              color: "#007D9E",
+            }}
+          >
+            Get in Touch
+          </h5>
+          <p>
+            {" "}
+            establish communication with someone; "did you finally connect with
+            your long-lost cousin?" touch base, connect. interact - act together
+            or towards others or with others; "He should interact more with his
+            colleagues"
+          </p>
 
           <img
-          className="img-fluid p-3"
-          src={img2}
-          style={{
-           
-          }}
-          alt="Card image cap"
-        />
+            className="img-fluid p-3"
+            src={img2}
+            style={{}}
+            alt="Card image cap"
+          />
         </div>
 
         <div
@@ -33,7 +42,14 @@ const Contact = () => {
             textAlign: "left",
           }}
         >
-          <h4 className="text-dark">Medical Press</h4>
+          <h4
+            className=""
+            style={{
+              color: "#007D9E",
+            }}
+          >
+            Medical Press
+          </h4>
 
           <p>121 King Street, Melbourne Victoria 3000 Australia</p>
 
@@ -56,7 +72,7 @@ const Contact = () => {
                 style={{
                   backgroundColor: "#007d9e",
                   color: "white",
-                  height:120
+                  height: 120,
                 }}
               >
                 <p>121 King Street,</p>
@@ -69,8 +85,7 @@ const Contact = () => {
                 style={{
                   backgroundColor: "#007d9e",
                   color: "white",
-                  height:120
-
+                  height: 120,
                 }}
               >
                 {" "}
@@ -85,8 +100,7 @@ const Contact = () => {
                 style={{
                   backgroundColor: "#007d9e",
                   color: "white",
-                  height:120
-
+                  height: 120,
                 }}
               >
                 {" "}
@@ -100,8 +114,7 @@ const Contact = () => {
                 style={{
                   backgroundColor: "#007d9e",
                   color: "white",
-                  height:120
-
+                  height: 120,
                 }}
               >
                 {" "}
