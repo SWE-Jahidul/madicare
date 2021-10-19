@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useAuth from "../Hooks/useAuth";
 
-import './Navbar.css'
+import "./Navbar.css";
 const Navbar = () => {
+  const { users, logOut } = useAuth();
   return (
     <div className="container">
       <div className="row pt-4">
@@ -10,7 +12,7 @@ const Navbar = () => {
           className="col-md-6 fw-bold "
           style={{
             fontSize: 25,
-            color: "#007D9E"
+            color: "#007D9E",
           }}
         >
           LIFECARE
@@ -30,68 +32,89 @@ const Navbar = () => {
       </div>
 
       <nav className="navbar navbar-expand-lg ">
-       
-    
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon ">
+            <i class="fa fa-navicon" aria-hidden="true"></i>
+          </span>
+        </button>
+        <div
+          className="collapse navbar-collapse fw-bold"
+          id="navbarSupportedContent"
+        >
+          <ul
+            className="navbar-nav me-auto mb-2 mb-lg-0 "
+            style={{
+              color: "#007D9",
+            }}
           >
-            <span className="navbar-toggler-icon ">
-              <i class="fa fa-navicon" aria-hidden="true"></i>
-            </span>
-          </button>
-          <div
-            className="collapse navbar-collapse fw-bold"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 "
-          style={{
-            color: "#007D9",
-          }}
-            >
-              <li className="nav-item">
-                <Link to="/" className="nav-link menu-link">
-                  Home
-                </Link>
-              </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link menu-link">
+                Home
+              </Link>
+            </li>
 
-              <li className="nav-item">
-                <Link to="/about" className="nav-link menu-link">
-                  About
-                </Link>
-              </li>
+            <li className="nav-item">
+              <Link to="/about" className="nav-link menu-link">
+                About
+              </Link>
+            </li>
 
-              <li className="nav-item">
-                <Link to="/service" className="nav-link menu-link">
-                  Services
-                </Link>
-              </li>
+            <li className="nav-item">
+              <Link to="/service" className="nav-link menu-link">
+                Services
+              </Link>
+            </li>
 
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link menu-link">
-                  Contact
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/doctors" className="nav-link menu-link">
-                  Doctors
-                </Link>
-              </li>
-            </ul>
+            <li className="nav-item">
+              <Link to="/contact" className="nav-link menu-link">
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/doctors" className="nav-link menu-link">
+                Doctors
+              </Link>
+            </li>
+            <div className="d-flex flex-row-reverse align-items-center">
+          <div className="ms-3">
+            {users.email || users.uid ? (
+              <img
+                src={users?.photoURL}
+                alt={users.name}
+                width="35"
+                height="35"
+                style ={{
+                  borderRadius: '50px',
+
+                }}
+              />
+            ) : (
+              <div></div>    
+            )}
+
+          </div>
+
+          <div>
+            {users.uid || users.email ? (
+              <Link to="" className="signin" onClick={logOut}>
+                Log Out
+              </Link>
+            ) : (
+              <Link to="/singin" className=" signin ">
+                Sign In
+              </Link>
+            )}
+          </div>
         </div>
-
-        <div className="d-flex flex-row-reverse ">
-          <Link to="/singin" className="signin menu-link" >
-            Sign In
-          </Link>
-          <Link to="/singout" className="Singout me-3 menu-link">
-            Sign Out
-          </Link>
+          </ul>
         </div>
       </nav>
     </div>

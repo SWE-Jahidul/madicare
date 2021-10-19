@@ -12,55 +12,59 @@ import Service from "./Component/Service/Service";
 import SingUp from "./Component/SingUp/SingUp";
 import DoctorDetails from "./Component/DoctorDetails/DoctorDetails";
 import NotFound from "./Component/NotFound/NotFound";
+import AuthProvider from "./Component/Context/AuthProvider";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar></Navbar>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-
-          <Route path="/about">
-            <About></About>
-          </Route>
-
-          <Route path="/service">
-            <Service></Service>
-          </Route>
-
-          <Route path="/doctors">
-            <Doctors></Doctors>
-          </Route>
-
-          <Route path="/doctordetails/:doctorsId">
-            <DoctorDetails></DoctorDetails>
-          </Route>
-
-          <Route path="/contact">
-            <Contact></Contact>
-          </Route>
-          <Route path="*">
-              <NotFound></NotFound>
+      <AuthProvider>
+        <Router>
+          <Navbar></Navbar>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
             </Route>
 
-          <Route path="/singin">
-            <Signin></Signin>
-          </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
 
-          <Route path="/signup">
-            <SingUp></SingUp>
-          </Route>
-        </Switch>
+            <Route path="/about">
+              <About></About>
+            </Route>
 
-        <Footer></Footer>
-      </Router>
+            <Route path="/service">
+              <Service></Service>
+            </Route>
+
+            <Route path="/doctors">
+              <Doctors></Doctors>
+            </Route>
+
+            <Route path="/doctordetails/:doctorsId">
+              <DoctorDetails></DoctorDetails>
+            </Route>
+
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
+
+            <Route path="/singin">
+              <Signin></Signin>
+            </Route>
+
+            <Route path="/signup">
+              <SingUp></SingUp>
+            </Route>
+
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

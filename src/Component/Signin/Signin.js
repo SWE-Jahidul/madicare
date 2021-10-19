@@ -1,21 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useAuth from "../Hooks/useAuth";
 import "./SignIn.css";
 
 const Signin = () => {
-  return (
+
+
+  const { signinUsingGoogle,FacebookSignin } = useAuth();
+     return (
     <div className="d-flex justify-content-center ">
       <div className="sign-in shadow-lg my-5  px-5">
         <h3 className="text-center pt-5"> LOGIN TO MEDICARE</h3>
         <hr className="w-75 ms-auto me-auto" />
         <div className="d-flex justify-content-around">
-          <button type="button" class="fb my-2 " >
+          <button type="button" class="fb my-2 " onClick={FacebookSignin} >
             Facebook
           </button>
           <button
             type="button"
             class="gmail  my-2 "
-           
+           onClick={signinUsingGoogle}
           >
             Gmail
           </button>
