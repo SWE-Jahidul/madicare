@@ -6,7 +6,12 @@ const Footer = () => {
     <footer className="footer ">
       <section className="container ">
         <div className="row pt-5">
-          <div className="col-lg-3">
+          <div
+            className="col-lg-3 col-md-3 col-12"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <h5> About MedicalPress</h5>
             <p>
               {" "}
@@ -15,21 +20,38 @@ const Footer = () => {
               consequat.
             </p>
           </div>
-          <div className="col-lg-3 ">
+          <div
+            className="col-lg-3 col-md-3 col-12"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <h5> Recent Posts</h5>
-            <p> Flutter </p>
-            <p> Dart </p>
-            <p> SQL </p>
-            <p> Oracle </p>
+
+            <div>
+              <p> We make you smile each time without any pain May 7, 2018 </p>
+              <p> Dental Implants are easier now May 7, 2018 </p>
+              <p> Image Post Format May 20, 2014 </p>
+              <p> Quote Post Format May 18, 2014 </p>
+            </div>
           </div>
-          <div className="col-lg-3 ">
+          <div
+            className="col-lg-3 col-md-3 col-12"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <h5> Categories</h5>
-            <p> Prices </p>
-            <p> Apply </p>
+            <p> Health Basics </p>
+            <p> Lifestyle </p>
             <p> Tearms & Condition </p>
-            <p> Register</p>
+            <p> Motivation </p>
           </div>
-          <div className="col-lg-3 ">
+          <div className="col-lg-3 col-md-3 col-12"
+           style={{
+            textAlign: "left",
+          }}
+          >
             <h5> WORK WITH US </h5>
             <p> Our Team </p>
             <p> Instactor </p>

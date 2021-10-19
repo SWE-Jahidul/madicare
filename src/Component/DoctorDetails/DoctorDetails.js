@@ -22,7 +22,7 @@ const DoctorDetails = () => {
   }, [doctors]);
   return (
     <div>
-      <div className="headerdiv">
+      <div className="headerdiv my-5" >
         {currentDoctor && (
           <div className="container mt-3">
             <div className="row d-flex align-items-center">

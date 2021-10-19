@@ -49,9 +49,9 @@ function App() {
               <Contact></Contact>
             </Route>
 
-            <Route path="/singin">
+            {/* <Route path="/singin">
               <Signin></Signin>
-            </Route>
+            </Route> */}
 
             <Route path="/signup">
               <SingUp></SingUp>

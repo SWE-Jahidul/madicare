@@ -85,9 +85,17 @@ const Navbar = () => {
               </Link>
             </li>
 
+           
+
             <li className="nav-item">
               <Link to="/service" className="nav-link menu-link">
                 Services
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link to="/doctors" className="nav-link menu-link">
+                Doctors
               </Link>
             </li>
 
@@ -96,11 +104,8 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/doctors" className="nav-link menu-link">
-                Doctors
-              </Link>
-            </li>
+
+            
             <div className="d-flex flex-row-reverse align-items-center">
               <div className="ms-3">
                 {users.email || users.uid ? (
@@ -120,11 +125,11 @@ const Navbar = () => {
 
               <div>
                 {users.uid || users.email ? (
-                  <Link to="" className="signin" onClick={logOut}>
+                  <Link to="" className="signup" onClick={logOut}>
                     Log Out
                   </Link>
                 ) : (
-                  <Link to="/singin" className=" signin ">
+                  <Link to="/signup" className=" signin ">
                     Sign In
                   </Link>
                 )}
