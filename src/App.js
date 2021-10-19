@@ -11,6 +11,7 @@ import Signin from "./Component/Signin/Signin";
 import Service from "./Component/Service/Service";
 import SingUp from "./Component/SingUp/SingUp";
 import DoctorDetails from "./Component/DoctorDetails/DoctorDetails";
+import NotFound from "./Component/NotFound/NotFound";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
+          <Route path="*">
+              <NotFound></NotFound>
+            </Route>
 
           <Route path="/singin">
             <Signin></Signin>

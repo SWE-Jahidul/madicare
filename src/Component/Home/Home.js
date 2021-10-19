@@ -1,8 +1,8 @@
 import React from "react";
 import HomeDoctorsList from "../HomeDoctorsList/HomeDoctorsList";
 import HomeService from "../HomeService/HomeService";
-import PatationSayaAll from "../PatainSysAll/PatationSayaAll";
 import PatientSay from "../PatientSay/PatientSay";
+import Patients from "../PatientsS/Patients";
 import HeaderSlider from "./HeaderSlider";
 
 const Home = () => {
@@ -11,8 +11,7 @@ const Home = () => {
       <HeaderSlider></HeaderSlider>
       <HomeDoctorsList></HomeDoctorsList>
       <HomeService></HomeService>
-      {/* <PatientSay></PatientSay> */}
-      {/* <PatationSayaAll></PatationSayaAll> */}
+      {/* <Patients></Patients> */}
     </div>
   );
 };
