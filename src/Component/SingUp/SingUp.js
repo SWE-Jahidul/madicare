@@ -6,7 +6,6 @@ import "./Singup.css"
 import {
   getAuth,
   createUserWithEmailAndPassword,
-  signInWithPopup,
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import initilizeauthentication from "../Firebase/firebase.initialize";
@@ -92,15 +91,7 @@ const SingUp = () => {
         <hr className="w-75 ms-auto me-auto" />
         <form onSubmit={handelRegistration}>
           <div> Plase {islogin ? "Login" : "Register"} </div>
-          {/* <div className="form-group my-4">
-            <input
-              type="email"
-              className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="User Name "
-            />
-          </div> */}
+        
           <div className="form-group my-4">
             <input
               type="email"
@@ -124,15 +115,7 @@ const SingUp = () => {
             />
           </div>
 
-          {/* <div className="form-group my-4">
-            <input
-              type="email"
-              className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Confirm Password"
-            />
-          </div> */}
+       
 
           <button type="submit" class="btn my-2 mt-3">
             {islogin ? "Login" : "Register"}

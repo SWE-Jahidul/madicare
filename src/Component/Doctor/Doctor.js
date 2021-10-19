@@ -8,7 +8,7 @@ const Doctor = (props) => {
   return (
     <div className="col-lg-3 col-md-3 col-12 g-3 ">
       <div
-        class="card course-card border-0 shadoaa"
+        className="card course-card border-0 shadoaa"
         style={{
           borderRadius: "10px ",
           background: "whitesmoke",

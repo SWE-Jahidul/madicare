@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Component/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -7,7 +6,6 @@ import About from "./Component/About/About";
 import Footer from "./Component/Footer/Footer";
 import Doctors from "./Component/Doctors/Doctors";
 import Contact from "./Component/Contact/Contact";
-import Signin from "./Component/Signin/Signin";
 import Service from "./Component/Service/Service";
 import SingUp from "./Component/SingUp/SingUp";
 import DoctorDetails from "./Component/DoctorDetails/DoctorDetails";

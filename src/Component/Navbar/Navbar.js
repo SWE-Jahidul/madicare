@@ -60,7 +60,7 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon ">
-            <i class="fa fa-navicon" aria-hidden="true"></i>
+            <i className="fa fa-navicon" aria-hidden="true"></i>
           </span>
         </button>
         <div
