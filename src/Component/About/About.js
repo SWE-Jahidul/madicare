@@ -7,8 +7,11 @@ import img3 from "../images/abt3.png";
 
 const About = () => {
   return (
-    <div className="container">
-      <h3> LifeCare of the 21st Century</h3>
+    <div className="container py-5">
+      <h3> <span   style={{
+            color: "#007d9e",
+          }}>
+         LifeCare </span> of the 21st Century</h3>
       <p>
         {" "}
         We deliver the best veterinary experience for pets, pet parents, and vet
@@ -26,7 +29,9 @@ const About = () => {
             textAlign: "left",
           }}
         >
-          <h4>We offer urgent care.</h4>
+          <h4  style={{
+            color: "#007d9e",
+          }}>We offer urgent care.</h4>
 
           <p>
             With BetterVet, you can schedule a same-day appointment and video
@@ -45,7 +50,9 @@ const About = () => {
             textAlign: "left",
           }}
         >
-          <h4>We’re truly mobile.</h4>
+          <h4  style={{
+            color: "#007d9e",
+          }}>We’re truly mobile.</h4>
 
           <p>
             Just as you expect your services to come to you, we believe the
@@ -70,7 +77,9 @@ const About = () => {
             textAlign: "left",
           }}
         >
-          <h4>We’re truly mobile.</h4>
+          <h4  style={{
+            color: "#007d9e",
+          }}>We’re truly mobile.</h4>
 
           <p>
             In 1950, Merle and Jean Marx started Medical Service Company (MSC)

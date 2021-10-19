@@ -105,7 +105,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            
+
             <div className="d-flex flex-row-reverse align-items-center">
               <div className="ms-3">
                 {users.email || users.uid ? (
@@ -125,11 +125,11 @@ const Navbar = () => {
 
               <div>
                 {users.uid || users.email ? (
-                  <Link to="" className="signup" onClick={logOut}>
+                  <Link to="" className="signup menu-link " onClick={logOut}>
                     Log Out
                   </Link>
                 ) : (
-                  <Link to="/signup" className=" signin ">
+                  <Link to="/signup" className=" signin menu-link ">
                     Sign In
                   </Link>
                 )}

@@ -1,9 +1,8 @@
 import React from "react";
 
-
-import doc1 from '../images/doc1.jpg';
-import doc2 from '../images/doc2.jpg';
-import doc3 from '../images/doc3.jpg';
+import doc1 from "../images/doc1.jpg";
+import doc2 from "../images/doc2.jpg";
+import doc3 from "../images/doc3.jpg";
 const HeaderSlider = () => {
   return (
     <div>
@@ -36,35 +35,85 @@ const HeaderSlider = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={doc1} className="d-block w-100" alt="..."  style={{
-                height:500
-            }}/>
+            <img
+              src={doc1}
+              className="d-block w-100"
+              alt="..."
+              style={{
+                height: 500,
+              }}
+            />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
+              <h3
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                MEDICAL SERVICES THAT YOU CAN TRUST
+              </h3>
+              <p
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                More Results. Trusted results for Medical Insurance In Us. Check
+                Visymo Search for the best results! Unlimited Access.{" "}
               </p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={doc2} className="d-block w-100" alt="..."   style={{
-                height:500
-            }}/>
+            <img
+              src={doc2}
+              className="d-block w-100"
+              alt="..."
+              style={{
+                height: 500,
+              }}
+            />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
+              <h3
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                WE CARE FOR YOU
+              </h3>
+              <p
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                We Care For You is a full service local and long distance moving
+                company, we also offer a wide range of concierge services such
+                as adult care
               </p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={doc3} className="d-block w-100" alt="..."   style={{
-                height:500
-            }}/>
+            <img
+              src={doc3}
+              className="d-block w-100"
+              alt="..."
+              style={{
+                height: 500,
+              }}
+            />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
+              <h3
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                QUALIFIED STAFF WITH EXPERTISE IN SERVICES WE OFFER
+              </h3>
+              <p
+                style={{
+                  color: "#007d9e",
+                }}
+              >
+                Search Seo Services Uk, Top Results From Trusted Resources.
+                Search Seo Services Uk, Get Expert Advice and Curated Content on
+                Top10ques
               </p>
             </div>
           </div>
